@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Nimbus CRM — Sales workspace',
+  title: 'Nimbus India CRM — Sales workspace',
   description: 'A focused CRM workspace for managing customers, leads, tasks, and sales pipelines.',
   generator: 'v0.app',
   icons: {
@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-IN">
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
