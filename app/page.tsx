@@ -29,22 +29,22 @@ type Section = 'Overview' | 'Customers' | 'Leads' | 'Tasks' | 'Sales'
 type Lead = { name: string; company: string; value: string; status: string; avatar: string; color: string }
 
 const leads: Lead[] = [
-  { name: 'Ananya Sharma', company: 'BharatTech Labs', value: '₹24,50,000', status: 'New', avatar: 'AS', color: 'bg-[#dce8ff] text-[#3159a8]' },
-  { name: 'Rohan Mehta', company: 'Vertex India Systems India', value: '₹18,20,000', status: 'Contacted', avatar: 'RM', color: 'bg-[#fce1d7] text-[#b34f38]' },
-  { name: 'Priya Iyer', company: 'Acme Studios Mumbai Mumbai', value: '₹32,80,000', status: 'Converted', avatar: 'PI', color: 'bg-[#e5ddff] text-[#6746b6]' },
-  { name: 'Arjun Nair', company: 'Brightline Bengaluru', value: '₹12,40,000', status: 'New', avatar: 'AN', color: 'bg-[#d8f1e6] text-[#347e5a]' },
+  { name: 'Ananya Sharma', company: 'Oiling Industries', value: '₹24,50,000', status: 'New', avatar: 'AS', color: 'bg-[#dce8ff] text-[#3159a8]' },
+  { name: 'Rohan Mehta', company: 'Surya Oil & Energy', value: '₹18,20,000', status: 'Contacted', avatar: 'RM', color: 'bg-[#fce1d7] text-[#b34f38]' },
+  { name: 'Priya Iyer', company: 'NeemTree Organics', value: '₹32,80,000', status: 'Converted', avatar: 'PI', color: 'bg-[#e5ddff] text-[#6746b6]' },
+  { name: 'Arjun Nair', company: 'Kaveri Logistics', value: '₹12,40,000', status: 'New', avatar: 'AN', color: 'bg-[#d8f1e6] text-[#347e5a]' },
 ]
 
 const customers = [
-  { name: 'BharatTech Labs', contact: 'Ananya Sharma', email: 'ananya@bharattech.in', value: '₹84,20,000', initials: 'BL', color: 'bg-[#dce8ff] text-[#3159a8]' },
-  { name: 'Acme Studios Mumbai Mumbai', contact: 'Priya Iyer', email: 'priya@acmestudios.in', value: '₹61,50,000', initials: 'AM', color: 'bg-[#e5ddff] text-[#6746b6]' },
-  { name: 'Vertex India Systems India', contact: 'Rohan Mehta', email: 'rohan@vertex.co.in', value: '₹48,90,000', initials: 'VS', color: 'bg-[#fce1d7] text-[#b34f38]' },
+  { name: 'Oiling Industries', contact: 'Ananya Sharma', email: 'ananya@oiling.in', value: '₹84,20,000', initials: 'BL', color: 'bg-[#dce8ff] text-[#3159a8]' },
+  { name: 'NeemTree Organics', contact: 'Priya Iyer', email: 'priya@neemtree.in', value: '₹61,50,000', initials: 'AM', color: 'bg-[#e5ddff] text-[#6746b6]' },
+  { name: 'Surya Oil & Energy', contact: 'Rohan Mehta', email: 'rohan@suryaenergy.in', value: '₹48,90,000', initials: 'VS', color: 'bg-[#fce1d7] text-[#b34f38]' },
 ]
 
 const tasks = [
-  { title: 'Follow up with BharatTech Labs', meta: 'Today · High priority', done: false },
-  { title: 'Send proposal to Acme Studios Mumbai', meta: 'Tomorrow · Medium priority', done: false },
-  { title: 'Schedule Q3 review with Vertex India', meta: 'Friday · Low priority', done: true },
+  { title: 'Follow up with Oiling Industries', meta: 'Today · High priority', done: false },
+  { title: 'Send proposal to NeemTree Organics', meta: 'Tomorrow · Medium priority', done: false },
+  { title: 'Schedule Q3 review with Surya Oil & Energy', meta: 'Friday · Low priority', done: true },
 ]
 
 const navItems: { label: Section; icon: typeof LayoutDashboard }[] = [
