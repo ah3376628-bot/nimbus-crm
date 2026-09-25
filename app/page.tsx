@@ -73,7 +73,7 @@ export default function Page() {
   return (
     <div className="crm-shell">
       <aside className={`sidebar ${mobileNav ? 'sidebar-open' : ''}`}>
-        <div className="brand"><span className="brand-mark">N</span><span>nimbus</span></div>
+        <div className="brand"><span className="brand-mark">N</span><span>NIMBUS</span></div>
         <div className="workspace-switch"><span className="workspace-dot" /> Bharat Growth Co. <ChevronDown size={14} /></div>
         <nav className="main-nav" aria-label="Main navigation">
           <p className="nav-label">Workspace</p>
